@@ -3,6 +3,35 @@
 
 ---
 
+## 🖼️ 系統展示截圖 (System Showcase)
+
+### 1. 📱 用戶租還車視角 (Phone Simulator & AR Blueprint Assist)
+> 整合車頂視角雷達、AR 車身藍圖特徵對齊、微光補光燈智慧防呆、多模態車內整潔度分析與全新防擠壓 5 大視角快捷導航。
+
+<div align="center">
+  <img src="docs/images/demo_phone_simulator.png" alt="Phone Simulator View" width="380" />
+</div>
+
+<br />
+
+### 2. 🔬 端側與雲端雙核 AI 檢驗儀表板 (AI Inspector HUD & Digital Twin Diff)
+> 實時呈現 Laplacian 清晰度評分 (184.5)、環境照度 (78%)、PaddleOCR 車牌 100% 比對、YOLO-seg 92.4% 磁吸鎖定，並支援 Before/After 數位孿生微差車損比對拉桿。
+
+<div align="center">
+  <img src="docs/images/demo_ai_hud.png" alt="AI Inspector HUD & Digital Twin Diff" width="850" />
+</div>
+
+<br />
+
+### 3. 🏢 營運調度控制台 (Fleet Command Center Dashboard)
+> 即時監控全區 580 台車隊狀況，支援 30 秒微差快審與智慧派工。當調度員將車輛調派為「微瑕特惠出租 (85折)」或「停權進廠報修」時，頂部 KPI 數字、佔比與待處置事件佇列即時自動聯動更新。
+
+<div align="center">
+  <img src="docs/images/demo_operator_dashboard.png" alt="Operator Fleet Command Center" width="850" />
+</div>
+
+---
+
 ## 📖 專案簡介 (Project Overview)
 
 **iRent 智馭車況管家 (VisionGuard v2.0)** 是一套融合 Edge AI 影像檢驗技術、多視角車輛藍圖比對與雲端營運調度的全方位解決方案。針對共享汽機車「取車防呆耗時」、「還車車損難釐清」、「車內整潔爭議」三大痛點，提供消費者與後台營運人員雙向無縫的智慧體驗：
@@ -64,4 +93,4 @@ npm run build
 
 ## 👥 團隊資訊 (Team & Hackathon)
 - **競賽專案**：2026 和泰 AI 黑客松 (Hotai AI Hackathon)
-- **專案主題**：iRent 智馭車況管家 (VisionGuard)
+- **專案主題**：iRent 智馭車況管家 (VisionGuard v2.0)
